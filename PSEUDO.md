@@ -3,5 +3,6 @@
 2. Create index.js
     - Est. port and path
     - Est Listening
+3. Install handlebars
 3. Create Views Folder
     - create first views page

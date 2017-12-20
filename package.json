@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/ga-wdi-exercises/compliment-express#readme",
   "dependencies": {
+    "express": "^4.16.2",
     "hbs": "^4.0.1"
   }
 }

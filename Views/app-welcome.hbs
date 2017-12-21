@@ -1,2 +1,14 @@
 <h2>Emergency Compliment</h2>
 
+{{#if name }}
+Welcome {{name}}!
+{{else}}
+Welcome!
+{{/if}}
+
+<form action="/newCompliment" method="post">
+<input type="text" name='newCompliment' placeholder="New Compliment">
+<input type="submit" value='Register'>
+</form>
+
+

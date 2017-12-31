@@ -9,9 +9,7 @@ var compliments = [
 
 var colors = ["#FFCB74", "#81FFDC","#FF81D6","#FF0080"]
 
-var body = document.body
-
-// body.style.background
+var body = document.body 
 
 function makeRandom (min, max) {
    min = Math.ceil(min)

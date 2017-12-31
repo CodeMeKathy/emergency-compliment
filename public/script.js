@@ -1,12 +1,13 @@
 var compliments = [
-  "Your instructors love you",
-  "High five = ^5",
-  "Is it Ruby Tuesday yet?",
-  "It's almost beer o'clock",
-  "The Force is strong with you"
+  'Your instructors love you!',
+  'High five = ^5!',
+  'Good cookin, good Lookin!',
+  'Nice Outfit!',
+  'The Force is strong with you!'
 ]
 
-var colors = ["#FFBF00", "#0080FF","#01DF3A","#FF0080"]
+
+var colors = ["#FFCB74", "#81FFDC","#FF81D6","#FF0080"]
 
 var body = document.body
 

@@ -1,14 +1,17 @@
 <h2>Emergency Compliment</h2>
 
 {{#if name }}
-Welcome {{name}}!
+<h3>Welcome {{name}}!</h3>
 {{else}}
-Welcome!
+<h3>Welcome!</h3>
 {{/if}}
 
-<form action="/newCompliment" method="post">
-<input type="text" name='newCompliment' placeholder="New Compliment">
-<input type="submit" value='Register'>
+<form action="/" method="post">
+<input id='newCompliment' type="text" name='newCompliment' placeholder='New Compliment'>
+<input type="submit" value='Post It!'>
 </form>
+
+<p>{{{newCompliment}}}</p>
+
 
 

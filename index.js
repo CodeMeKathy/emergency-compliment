@@ -36,12 +36,6 @@ app.post("/", (request, response) => {
 // app.get("/", function (req, res) {
 //     res.redirect("/compliments");
 // });
-// app.post('/', (request, response) => {
-    //     res.render('app-welcome', {
-        //         compliments
-        //       compliments.push(request.body.newCompliment)
-        //     // setTimeout(request.redirect(`/`), 1000)
-        // })
                    
 app.listen(app.get('port'), () => {
 console.log('It\'s aliiive!')
